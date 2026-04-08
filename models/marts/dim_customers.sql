@@ -1,5 +1,6 @@
 {{
     config(
+        tags = ['daily', 'customers']
         materialized='table'
     )
 }}
