@@ -1,6 +1,6 @@
 {{ config(
     materialized='incremental',
-    tags=['stage']
+    tags=['dim']
 ) }}
 with customers as (
 
